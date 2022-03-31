@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            font-style: italic ; font-weight: bold;
+        }
+        table ,th , tr , td {
+            border: 4px solid black;
+         background-color: #ab15c3 ; width: 90vh;
+         text-align: center;
+        }
+           
+        ol {
+            color:#0e72f0  ;
+        }
+     
+      
+       
+        ul li{
+            font-weight: bold;
+            color: #0ef047 ;
+        }
+    </style>
+</head>
+<body style="background-image:url('white.jpg');  " >
+    <header style="text-align: center; height: 10vh;border: 8px solid white; color: white; background-color: #5e95e4; "><h1>TEACHERS</h1> </header>
+    <div style="height: 100%;">
+        <h1 style="font-size: 25px; color: #920898;"> <b>50 Class</b> </h1>
+        <h2 style="font-size: 17px; font-style: italic; color: #920898;"> Welcome to our website</h2>
+      <fieldset>
+          <legend> <b>FORM</b>  </legend>
+     
+        <form>
+            <label for="email">E-MAIL:</label>        
+            <input style="width: 30%;" type="email" name="email" >
+          <br><br>  <label for="full name">FULL NAME:</label>
+            <input style="width: 30%;" type="text" name="full name" minlength="2" maxlength="30">
+          <br> <br>  <label for="birth">BIRTH DATE:</label>
+            <input type="text" name="birth" >
+          <br> <br>  <label for="grade">STUDENTS GRADE:</label>
+            <input type="number" name="grade" min="0" max="15" onkeydown=" return false" >
+           <br><br>  <button style="width: 60px; height: 30px; background-color: #c3158e;color: #ffffff;"> SAVE</button>
+            
+
+        </form>
+     </fieldset>
+    </div>
+    <br> <div>
+        <table>
+            <thead>
+                <th> FULL NAME</th> <th>BIRTH DATE </th> <th> E-MAIL </th> 
+            </thead>
+            <tbody>
+                <tr> <td>Jacob Inggido </td> <td>02/05/90 </td> <td>jacob635@gmail.com </td></tr>
+                <tr> <td>Gad Hezkyahu </td> <td> 03/10/91</td> <td> gad635@gmail.com</td></tr>
+                <tr> <td>Morit Drori </td> <td> 01/07/80</td> <td> morit635@gmail.com</td></tr>
+                <tr> <td>Takele Mekonen </td> <td> 05/10/60</td> <td>taki635@gmail.com </td></tr>
+                <tr> <td>Asaf Avraham </td> <td>09/12/94 </td> <td> asaf635@gmail.com</td></tr>
+            </tbody>
+        </table>
+     <ol> 
+         <li > <i> Jacob Inggido</i> 
+             <ul >
+                    <li> Full Stack</li>
+                    <li> HTML</li>
+                    <li> Java Script</li>
+               
+             </ul>
+         </li>
+         <li ><i> Gad Hezkyahu</i> <ul>
+             <li> Math </li>
+             <li> Sport</li>
+             <li> Hebrew </li>
+         </ul> </li>
+         <li ><i>Morit Drori </i> 
+             <ul> <li>English </li>
+                  <li>CSS </li>
+                  <li> Java </li>
+            </ul>
+         </li>
+         <li > <i>Takele Mekonen</i>  <ul> 
+             <li> Devnet</li>
+             <li> IT</li>
+             <li> UI </li>
+         </ul></li>
+         <li >  <i>Asaf Avraham</i>  <ul> 
+                <li> UX</li>
+                <li>QA </li>
+                <li>Monday </li>
+         </ul> </li>
+     </ol>
+    </div>
+    <footer style="height: 10vh;  border: 8px solid white; background-color: #5e95e4;
+    color: #ffffff;
+     text-align: center;position: sticky; width: 100%;"> <h2>FACEBOOK INSTEGRAM TWITTER</h2></footer>
+
+</body>
+</html>
